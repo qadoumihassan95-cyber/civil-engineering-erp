@@ -1,0 +1,1 @@
+ALTER TABLE "dr_activities" ADD COLUMN "applied_qty" numeric(18, 4) DEFAULT '0' NOT NULL;

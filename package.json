@@ -1,0 +1,49 @@
+{
+  "name": "civil-erp",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:push": "drizzle-kit push",
+    "db:seed": "tsx --env-file=.env scripts/seed.ts",
+    "db:studio": "drizzle-kit studio",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "decimal.js": "^10.5.0",
+    "drizzle-orm": "^0.44.2",
+    "jose": "^6.0.11",
+    "next": "^15.4.1",
+    "postgres": "^3.4.7",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "zod": "^3.25.41"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.11",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/node": "^22.15.30",
+    "@types/react": "^19.1.6",
+    "@types/react-dom": "^19.1.5",
+    "drizzle-kit": "^0.31.3",
+    "eslint": "^9.28.0",
+    "eslint-config-next": "^15.4.1",
+    "playwright": "^1.62.1",
+    "tailwindcss": "^4.1.11",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.67.0",
+    "vitest": "^3.2.3"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

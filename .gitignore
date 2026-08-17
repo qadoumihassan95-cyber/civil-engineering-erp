@@ -1,0 +1,9 @@
+node_modules/
+.next/
+uploads/
+.env
+.env.local
+coverage/
+drizzle/meta/_journal.json.bak
+*.log
+.DS_Store
